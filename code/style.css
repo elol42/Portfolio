@@ -208,7 +208,6 @@ padding-left: 32px;
 .projectInfo {
   display: flex;
   text-align: left;
-  flex-wrap: wrap;
   align-items: baseline;
   margin-top: -20px;
 }
@@ -216,7 +215,7 @@ padding-left: 32px;
 .projectInfo h3 {
   font: Bold 17px/29px Roboto;
   color: #FA382F;
-  margin-right: 10px;
+  margin-right: 9px;
 }
 
 .projectInfo h4 {
@@ -242,3 +241,205 @@ padding-left: 32px;
   background-color: #FDDFE7;
 }
 
+.otherProjects {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.otherProjects h3 {
+  font: Bold 21px/25px Montserrat;
+  color: #FA382F;
+}
+
+/* Section 3 My Thoughts */
+
+
+.myThoughts {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.myThoughtsSubject h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FA382F;
+  width: 200px;
+  height: 27px;
+}
+
+.moreThoughts h3 {
+  font: Bold 21px/25px Montserrat;
+  color: #FA382F;
+}
+
+.moreThoughtsInfo {
+  display: flex;
+  text-align: left;
+  align-items: baseline;
+  margin-top: -20px;
+}
+
+.moreThoughtsInfo h4 {
+  font: 17px/29px Roboto;
+  color: #FA382F;
+}
+
+.moreThoughtsInfo p {
+  font: Bold 17px/29px Roboto;
+  color: black;
+}
+
+.moreThoughtsInfo a {
+  color: #FA382F;
+  text-decoration: underline;
+  font: Bold 17px/29px Roboto;
+}
+
+/* Section 4 SKILLS */
+
+.skills {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:#F4F4F4;
+  padding: 30px;
+}
+
+.skillSubject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FA382F;
+  width: 100px;
+  height: 27px;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skillInfo {
+  margin: 16px;
+  padding: 20px;
+}
+
+.skillInfo h3 {
+  font: Bold 21px/32px Roboto;
+  color: #FA382F;
+  margin-bottom: -14px;
+  margin-top: 40px;
+}
+
+.skillInfo p {
+  font: 17px/29px Roboto;
+  color: #000000;
+  margin-bottom: -18px;
+}
+
+/* Section 5 Fore More */
+
+.forMore {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.forMoreSubject h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FA382F;
+  width: 140px;
+  height: 27px;
+}
+
+.forMoreIcon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -60px;
+  width: 400px;
+  } 
+
+.forMoreIcon li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+
+.forMoreIcon li a {
+  border-bottom: none;
+  }
+
+.forMoreIcon li img {
+  width: 28px;
+  height: 28px;
+  margin-right: 40px;
+  
+}
+
+.foreMoreCircel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid  #FA382F;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 105px;
+  width: 59px;
+  height: 59px;
+}
+
+/* Footer Contact */
+
+footer {
+  background-color: blue;
+  height: 270px; 
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact h2 {
+  font: Bold 21px/25px Montserrat;
+  margin-bottom: -5px;
+  margin-top: -10px;
+}
+
+.contact h3 {
+  font: Bold 17px/29px Roboto;
+  margin-bottom: -15px;
+}
+
+.contact p {
+  font: 17px/29px Roboto;
+  color: #FFFFFF;
+  margin-bottom: -22px;
+}
