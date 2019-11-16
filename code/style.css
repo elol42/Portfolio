@@ -315,6 +315,7 @@ padding-left: 32px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: left;
   background:#F4F4F4;
   padding: 30px;
 }
