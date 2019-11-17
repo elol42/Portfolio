@@ -246,6 +246,7 @@ padding-left: 32px;
 
 .projectInfo li a:hover {
   transform: scale(1.3);
+  text-decoration: none;
 }
 
 .typeOfcode {
@@ -307,6 +308,7 @@ padding-left: 32px;
 
 .otherInfo li a:hover {
   transform: scale(1.3);
+  text-decoration: none;
 }
 
 
@@ -345,21 +347,37 @@ padding-left: 32px;
   margin-top: -20px;
 }
 
-.moreThoughtsInfo h4 {
+.moreThoughtsInfo li {
+  display: inline;
+  text-align: left;
+  list-style: none;
+}
+
+.moreThoughtsInfo li h4 {
+  display: inline;
   font: 17px/29px Roboto;
   color: #FA382F;
 }
 
-.moreThoughtsInfo p {
+.moreThoughtsInfo li p {
+  display: inline;
   font: Bold 17px/29px Roboto;
   color: black;
+  margin-right: 5px;
 }
 
-.moreThoughtsInfo a {
+.moreThoughtsInfo li a {
+  display: inline;
   color: #FA382F;
   text-decoration: underline;
   font: Bold 17px/29px Roboto;
 }
+
+.moreThoughtsInfo ul li a:hover {
+  font: Bold 22px/29px Roboto;
+  text-decoration: none;
+}
+
 
 /* Section 4 SKILLS */
 
@@ -392,19 +410,19 @@ padding-left: 32px;
 }
 
 .skillInfo {
-  margin: 16px;
-  width: 146px;
+  margin: 5px;
+  width: 130px;
 }
 
 .skillInfo h3 {
-  font: Bold 21px/32px Roboto;
+  font: Bold 18px/32px Roboto;
   color: #FA382F;
   margin-bottom: -14px;
   margin-top: 40px;
 }
 
 .skillInfo p {
-  font: 17px/29px Roboto;
+  font: 14px/29px Roboto;
   color: #000000;
   margin-bottom: -20px;
 }
