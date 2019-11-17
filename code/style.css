@@ -198,7 +198,7 @@ padding-left: 32px;
 }
 
 .projects {
-  margin: 20px;
+  margin: 60px 10px;
 }
 
 .projects img {
@@ -329,6 +329,7 @@ padding-left: 32px;
   background: #FA382F;
   width: 180px;
   height: 27px;
+  margin-top: 30px;
 }
 
 
@@ -530,7 +531,6 @@ footer {
 /* header */
 
   header img{
-    object-position: top;
     height: 655px; 
   }
 
