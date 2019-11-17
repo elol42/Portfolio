@@ -507,20 +507,20 @@ footer {
 }
 
 .contact h2 {
-  font: Bold 21px Montserrat;
+  font: Bold 24px Montserrat;
   margin-bottom: -5px;
   margin-top: -10px;
 }
 
 .contact h3 {
   font: Bold 17px Roboto;
-  margin-bottom: -15px;
+  margin-bottom: -5px;
 }
 
 .contact p {
   font: 17px Roboto;
   color: #FFFFFF;
-  margin-bottom: -22px;
+  margin-bottom: -12px;
 }
 
 
