@@ -38,30 +38,30 @@ header img{
   width: 100%;
 }
 
-.headerContainer {
+.header-Container {
   z-index: 1;
   margin-top: -520px;
 }
 
-.smIcon {
+.sm-Icon {
   display: flex;
   justify-content: flex-end;
   text-align: center;
   margin: 10px
   } 
 
-.smIcon li {
+.sm-Icon li {
   display:inline-block;
   list-style-type:none;
   -webkit-user-select:none;
   -moz-user-select:none;
   }
 
-.smIcon li a {
+.sm-Icon li a {
   border-bottom: none;
   }
 
-.smIcon li img {
+.sm-Icon li img {
   width: 20px;
   height: 20px;
   margin-right: 40px;
@@ -79,7 +79,7 @@ header img{
   height: 40px;
 }
 
-.nameTitel {
+.name-Titel {
   margin-left: 40px;
 }
 
@@ -102,14 +102,14 @@ header img{
     margin-top: -2px;
   }
   
-  .pictureOfMe {
+  .picture-Of-Me {
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
     margin-right: 24px;
   }
 
-  .pictureOfMe img {
+  .picture-Of-Me img {
     width: 162px;
     height: 162px;
     border: 3px solid #FFFFFF;
@@ -121,7 +121,7 @@ header img{
 
   /* Section 1 About Me */
 
-  .aboutMe {
+  .about-Me {
     display: block;
     text-align: left;
     background:#F4F4F4;
@@ -131,7 +131,7 @@ header img{
     width: auto;
   }
 
-.aboutMe p {
+.about-Me p {
 font: 17px Montserrat;
 padding-left: 32px;
 }
@@ -139,7 +139,7 @@ padding-left: 32px;
 
 /* Section 2 Tech Information */
 
-.techSection{
+.tech-Section{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -149,11 +149,11 @@ padding-left: 32px;
   padding: 30px;
 }
 
-.techSection h2 {
+.tech-Section h2 {
   font: Bold 22px Montserrat;
 }
 
-.techSubject {
+.tech-Subject {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +162,7 @@ padding-left: 32px;
   height: 33px;
 }
 
-.techInfo p {
+.tech-Info p {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -173,7 +173,7 @@ padding-left: 32px;
 
 /* Section 3 Featured Project  */
 
-.featuredProjects {
+.featured-Projects {
   width: auto;
   height: auto;
   background:#F4F4F4;
@@ -184,7 +184,7 @@ padding-left: 32px;
   padding: 30px;
 }
 
-.featuredSubject {
+.featured-Subject {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,7 +193,7 @@ padding-left: 32px;
   height: 33px;
 }
 
-.featuredProjects h2 {
+.featured-Projects h2 {
   font: Bold 22px Montserrat;
 }
 
@@ -207,7 +207,7 @@ padding-left: 32px;
   margin-top: 10px;
 }
 
-.projectInfo {
+.project-Info {
   display: flex;
   text-align: left;
   align-items: baseline;
@@ -215,44 +215,44 @@ padding-left: 32px;
   width: 320px;
 }
 
-.projectInfo li {
+.project-Info li {
   display: inline;
   text-align: left;
   list-style: none;
 }
 
-.projectInfo li h3 {
+.project-Info li h3 {
   display: inline;
   font: Bold 17px Roboto;
   color:  rgb(248, 43, 95);
   margin-right: 11px;
 }
 
-.projectInfo li h4 {
+.project-Info li h4 {
   display: inline;
   font: 17px/29px Roboto;
   color: #000000;
   margin-right: 11px;
 }
 
-.projectInfo li a {
+.project-Info li a {
   display: inline;
   color: rgb(248, 43, 95);
   text-decoration: underline;
   font: Bold 17px Roboto;
 }
 
-.projectInfo li a:hover {
+.project-Info li a:hover {
   text-decoration: none;
 }
 
-.typeOfcode {
+.type-Of-code {
   display: flex;
   justify-content: center;
   text-align: left;
 }
 
-.typeOfcode p {
+.type-Of-code p {
   margin: 5px;
   padding: 5px;
   font: 11px Roboto;
@@ -261,7 +261,7 @@ padding-left: 32px;
 
 /* OTHER PROJECTS  */
 
-.otherProjects {
+.other-Projects {
   width: auto;
   height: auto;
   display: flex;
@@ -272,39 +272,39 @@ padding-left: 32px;
   width: 300px;
 }
 
-.otherInfo li {
+.other-Projects h3 {
+  font: Bold 21px Montserrat;
+  color: rgb(248, 43, 95);
+}
+
+.other-Info li {
   display: inline;
   text-align: left;
   list-style: none;
 }
 
-.otherProjects h3 {
-  font: Bold 21px Montserrat;
-  color: rgb(248, 43, 95);
-}
-
-.otherInfo li h4 {
+.other-Info li h4 {
   display: inline;
   font: Bold 17px Roboto;
   color:  rgb(248, 43, 95);
   margin-right: 5px;
 }
 
-.otherInfo li h5 {
+.other-Info li h5 {
   display: inline;
   font: 17px Roboto;
   color: black;
   margin-right: 10px;
 }
 
-.otherInfo li a {
+.other-Info li a {
   display: inline;
   color:  rgb(248, 43, 95);
   text-decoration: underline;
   font: Bold 17px/29px Roboto;
 }
 
-.otherInfo li a:hover {
+.other-Info li a:hover {
   transform: scale(1.3);
   text-decoration: none;
 }
@@ -312,7 +312,7 @@ padding-left: 32px;
 
 /* Section 3 My Thoughts */
 
-.myThoughts {
+.my-Thoughts {
   width: auto;
   height: auto;
   display: flex;
@@ -321,7 +321,7 @@ padding-left: 32px;
   align-items: center;
 }
 
-.myThoughtsSubject h2 {
+.my-Thoughts-Subject h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,13 +333,13 @@ padding-left: 32px;
 }
 
 
-.moreThoughts h3 {
+.more-Thoughts h3 {
   font: Bold 21px Montserrat;
   color: rgb(248, 43, 95);
   margin-top: 50px;
 }
 
-.moreThoughtsInfo {
+.more-Thoughts-Info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -350,19 +350,19 @@ padding-left: 32px;
   padding-right: 30px;
 }
 
-.moreThoughtsInfo li {
+.more-Thoughts-Info li {
   display: inline;
   text-align: left;
   list-style: none;
 }
 
-.moreThoughtsInfo li h4 {
+.more-Thoughts-Info li h4 {
   display: inline;
   font: 17px Roboto;
   color:  rgb(248, 43, 95);
 }
 
-.moreThoughtsInfo li p {
+.more-Thoughts-Info li p {
   display: inline;
   font: Bold 17px/29px Roboto;
   color: black;
@@ -370,14 +370,14 @@ padding-left: 32px;
   line-height: 0.5;
 }
 
-.moreThoughtsInfo li a {
+.more-Thoughts-Info li a {
   display: inline;
   color:  rgb(248, 43, 95);
   text-decoration: underline;
   font: Bold 17px/29px Roboto;
 }
 
-.moreThoughtsInfo ul li a:hover {
+.more-Thoughts-Info ul li a:hover {
   font: Bold 22px Roboto;
   text-decoration: none;
 }
@@ -397,7 +397,7 @@ padding-left: 32px;
   padding: 30px;
 }
 
-.skillSubject {
+.skill-Subject {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,26 +407,26 @@ padding-left: 32px;
   height: 33px;
 }
 
-.skillContainer {
+.skill-Container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.skillInfo {
+.skill-Info {
   margin: 5px;
   width: 130px;
 }
 
-.skillInfo h3 {
+.skill-Info h3 {
   font: Bold 18px/32px Roboto;
   color:  rgb(248, 43, 95);
   margin-bottom: -14px;
   margin-top: 40px;
 }
 
-.skillInfo p {
+.skill-Info p {
   font: 14px/29px Roboto;
   color: #000000;
   margin-bottom: -20px;
@@ -434,7 +434,7 @@ padding-left: 32px;
 
 /* Section 5 Fore More */
 
-.forMore {
+.for-More {
   width: auto;
   height: auto;
   display: flex;
@@ -444,7 +444,7 @@ padding-left: 32px;
   padding: 30px;
 }
 
-.forMoreSubject h2{
+.for-More-Subject h2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -454,7 +454,7 @@ padding-left: 32px;
   height: 27px;
 }
 
-.forMoreIcon {
+.for-More-Icon {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -462,24 +462,24 @@ padding-left: 32px;
   width: 400px;
   } 
 
-.forMoreIcon li {
+.for-More-Icon li {
   display:inline-block;
   list-style-type:none;
   -webkit-user-select:none;
   -moz-user-select:none;
   }
 
-.forMoreIcon li a {
+.for-More-Icon li a {
   border-bottom: none;
   }
 
-.forMoreIcon li img {
+.for-More-Icon li img {
   width: 28px;
   height: 28px;
   margin-right: 40px;
 }
 
-.foreMoreCircel {
+.for-More-Circel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -534,12 +534,12 @@ footer {
     height: 655px; 
   }
 
-  .smIcon {
+  .sm-Icon {
     justify-content: center;
     margin-left: 500px;
     } 
 
-    .smIcon li img {
+    .sm-Icon li img {
       width: 30px;
       height: 30px;
     }
@@ -550,7 +550,7 @@ footer {
       height: 80px;
     }
 
-    .nameTitel {
+    .name-Titel {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -567,12 +567,12 @@ footer {
       font: Bold 18px Montserrat;
       }
   
-      .pictureOfMe {
+      .picture-Of-Me {
         justify-content: center;
         margin-top: -100px;
         margin-left: 400px;
       }
-      .pictureOfMe img {
+      .picture-Of-Me img {
         width: 288px;
         height: 288px;
         border: 4px solid #FFFFFF;
@@ -580,14 +580,14 @@ footer {
 
   /* Section 1 About Me */
 
-  .aboutMe {
+  .about-Me {
     margin-top: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .aboutMe p {
+  .about-Me p {
     font: 29px Montserrat;
     width: 1088px;
     padding: 20px 0px;
@@ -595,40 +595,40 @@ footer {
 
 /* Section 2 Tech Information */
 
-.techSection {
+.tech-Section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px 0px;
 }
 
-.techSection h2 {
+.tech-Section h2 {
   font: Bold 27px Montserrat;
 }
 
 
-.techInfo p {
+.tech-Info p {
   font: 29px Montserrat;
   width: 1088px;
 }
 
 /* Section 3 Featured Project  */
 
-.featuredProjects {
+.featured-Projects {
   height: auto;
 }
 
-.featuredSubject {
+.featured-Subject {
   width: 320px;
   height: 33px;
   margin-bottom: 30px ;
 }
 
-.featuredProjects h2 {
+.featured-Projects h2 {
   font: Bold 27px Montserrat;
 }
 
-.projectCards {
+.project-Cards {
   width: 1088px;
   display: flex;
   justify-content: space-between;
@@ -653,7 +653,7 @@ margin-bottom: 100px;
   margin-top: 10px;
 }
 
-.projectInfo {
+.project-Info {
   display: flex;
   text-align: left;
   align-items: baseline;
@@ -662,49 +662,49 @@ margin-bottom: 100px;
   margin-left: -30px;
 }
 
-.projectInfo li h3 {
+.project-Info li h3 {
   font: Bold 29px Roboto;
 }
 
-.projectInfo li h4 {
+.project-Info li h4 {
   font: 29px Roboto;
 }
 
-.typeOfcode p {
+.type-Of-code p {
   font: 15px Roboto;
 }
 
-.projectInfo li a {
+.project-Info li a {
   font: Bold 29px Roboto;
 }
 
 /* OTHER PROJECTS  */
 
-.otherProjects {
+.other-Projects {
   width: 1088px;
   margin-bottom: 20px;
 }
 
-.otherProjects h3 {
+.other-Projects h3 {
   font: Bold 29px Montserrat;
 }
 
 
-.otherInfo li h4 {
+.other-Info li h4 {
   font: Bold 27px Roboto;
 }
 
-.otherInfo li h5 {
+.other-Info li h5 {
   font: 29px Roboto;
 }
 
-.otherInfo li a {
+.other-Info li a {
   font: Bold 29px Roboto;
 }
 
 /* Section 3 My Thoughts */
 
-.myThoughts {
+.my-Thoughts {
   height: auto;
 }
 
@@ -715,84 +715,84 @@ margin-bottom: 100px;
   align-items: center;
 }
 
-.myThoughtsSubject h2 {
+.my-Thoughts-Subject h2 {
   width: 230px;
   height: 30px;
   font: Bold 27px Montserrat;
 }
 
-.moreThoughtsInfo {
+.more-Thoughts-Info {
   margin-bottom: 30px;
   width: 1088px;
   
 }
 
-.moreThoughtsInfo ul {
+.more-Thoughts-Info ul {
   margin-top: -8px;
 }
 
-.moreThoughts h3 {
+.more-Thoughts h3 {
   font: Bold 27px Montserrat;
   margin-bottom: 40px;
 }
 
-.moreThoughtsInfo li h4 {
+.more-Thoughts-Info li h4 {
   font: 23px Roboto;
 }
 
-.moreThoughtsInfo li p {
+.more-Thoughts-Info li p {
   font: Bold 23px Roboto;
 }
 
-.moreThoughtsInfo li a {
+.more-Thoughts-Info li a {
   font: Bold 23px Roboto;
 }
 
-.moreThoughtsInfo ul li a:hover {
+.more-Thoughts-Info ul li a:hover {
   font: Bold 29px Roboto;
   text-decoration: none;
 }
 
 /* Section 4 SKILLS */
 
-.skillSubject {
+.skill-Subject {
   font: Bold 26px Montserrat;
   width: 150px;
   height: 38px;
 }
 
-.skillContainer {
+.skill-Container {
   width: 1088px;
   margin-bottom: 30px;
 }
 
-.skillInfo {
+.skill-Info {
   width: 200px;
   margin: 30px;
 }
 
-.skillInfo h3 {
+.skill-Info h3 {
   font: Bold 32px Roboto;
 }
 
-.skillInfo p {
+.skill-Info p {
   font: 26px Roboto;
 }
 
 /* Section 5 Fore More */
 
-.forMoreSubject h2{
+.for-More-Subject h2{
   font: Bold 32px Montserrat;
   width: 195px;
   height: 30px;
 }
 
-.forMoreIcon li img {
+.for-More-Icon li img {
   width: 50px;
   height: 50px;
 }
 
-.foreMoreCircel {
+.for-More-Circel {
   border: 4px solid rgb(248, 43, 95);
   margin-right: 50px;
   margin-left: 50px;
